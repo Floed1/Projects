@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokéball Guess Game</title>
+    <link rel="stylesheet" href="guessNumbers.css">
+    <script src="./pokeball_guess_number.js"></script>
+</head>
+<body style="background: #c7c7c7">
+    <div class="pokeball" onclick="startGuessNumbers();">
+        <h1 id="game-text1">
+            Zahlen Raten
+        </h1>
+        <p id="game-text2">Press Start</p>
+        <div class="center-button">
+            <form onsubmit="return checkInput();">
+                <input id="input" class="input-window" type="text">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
